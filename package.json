@@ -29,7 +29,8 @@
   "homepage": "https://github.com/totherik/good-fluent",
   "dependencies": {
     "fluent-logger": "^0.2.6",
-    "good-reporter": "^2.0.0"
+    "good-reporter": "^2.0.0",
+    "hoek": "^2.8.0"
   },
   "devDependencies": {
     "lab": "^4.7.0"
