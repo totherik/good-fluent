@@ -1,2 +1,2 @@
-good-fluentd
+good-fluent
 ===========

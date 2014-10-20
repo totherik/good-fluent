@@ -1,5 +1,5 @@
 {
-  "name": "good-fluentd",
+  "name": "good-fluent",
   "version": "1.0.0",
   "description": "A fluentd good reporter.",
   "main": "index.js",
@@ -11,19 +11,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/totherik/good-fluentd.git"
+    "url": "https://github.com/totherik/good-fluent.git"
   },
   "keywords": [
     "hapi",
     "good",
     "reporter",
+    "fluent",
     "fluentd",
     "logging"
   ],
   "author": "Erik Toth <totherik@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/totherik/good-fluentd/issues"
+    "url": "https://github.com/totherik/good-fluent/issues"
   },
-  "homepage": "https://github.com/totherik/good-fluentd"
+  "homepage": "https://github.com/totherik/good-fluent",
+  "dependencies": {
+    "fluent-logger": "^0.2.6",
+    "good-reporter": "^2.0.0"
+  },
+  "devDependencies": {
+    "lab": "^4.7.0"
+  }
 }
